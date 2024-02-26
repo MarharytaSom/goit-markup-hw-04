@@ -29,6 +29,7 @@ img{
 .header-container{
     display: flex;
     align-items: center;
+    
 }
 .container {
     max-width: 1158px;
@@ -95,17 +96,23 @@ img{
     color: #404bbf;
 }
 .hero{
-    padding-top: 188px;
-    padding-bottom: 188px;
+    background-color: #2e2f42;
+    background-image:linear-gradient(to bottom,
+        rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(/images/heroimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+      
 }
+ 
  .hero-container{
     padding-top: 188px;
-    padding-bottom: 292px;
-    
-    background: #2e2f42; 
+    padding-bottom: 188px;
     display: flex;
     flex-direction: column;
     align-items: center;
+ 
     }
 
     
@@ -198,12 +205,21 @@ img{
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden;}
+    overflow: hidden;
+}
+.adv-icon{
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    
+}
 .text-advantages{
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
+
 
 }
 .advant-titles{
@@ -212,8 +228,8 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-
-color: #2e2f42;
+    margin-top: 8px;
+    color: #2e2f42;
 
 }
 .team-sect{
@@ -241,15 +257,30 @@ color: #2e2f42;
 .names-list-item{
     background-color: #ffffff;
     width: calc((100% - 3 * 24px) / 4);
-    height: 380px;
+    height: 428px;
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
+    
 }
 .names-container{
-    padding: 32px 0;
+    
     background: #fff;
+}
+.icons-list{
+    display: flex;
+    gap: 24px;
+  
+    
+    
+}
+.team-icon{
+    width: 40px;
+    height: 40px;
+    
+
+
 }
 .names{
     font-weight: 500;
@@ -315,6 +346,7 @@ color: #2e2f42;
     
 }
 
+
 .footer{
     font-size: 16px;
     line-height: 1.5;
@@ -322,10 +354,11 @@ color: #2e2f42;
     color: #f4f4fd;
     background: #2e2f42;
     padding-top: 100px;
-    padding-bottom: 100px
+    padding-bottom: 100px;
     
     
 }
+
 .footer-logo{
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -334,13 +367,14 @@ color: #2e2f42;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        padding-bottom: 16px;
+        
         display: inline-block;
-        margin-bottom: 16px;
+       
         
 }
 .footer-logo-part{
     color :#f4f4fd;
+   
 }
 .footer-part{
     font-size: 16px;
@@ -350,3 +384,25 @@ color: #2e2f42;
     max-width: 264px;
 
 }
+.footer-container{
+    display: flex;
+    height: 112px;
+    
+    
+    
+
+}
+.footer-soc{
+    padding-left: 120px;
+    margin: 0;
+    
+    
+}
+.soc-med-title{
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+
+   
+    
